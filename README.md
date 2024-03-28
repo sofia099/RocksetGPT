@@ -26,7 +26,7 @@ To build RocksetGPT, we need an OpenAPI spec of all the endpoints we want our cu
     Step 1: Extract the paths for all the operationIds but drop '/v1' from them. These will be the paths of the final spec.
     Step 2: Remove the responses. These are not necessary in the final spec.
     Step 3: Include info but do not include info: description in the final spec.
-    Step 4: Add servers url "https://api.usw2a1.rockset.com/v1" but replace {region} in the url with the region the user provided.
+    Step 4: Add servers url "https://api.{region}.rockset.com/v1" but replace {region} in the url with the region the user provided.
     Step 5: The final spec can't have any $ref. Please iterative and replace $ref —no matter how deeply nested— with its definition until there are no more instances of $ref in the final spec. The definitions can be found in the original spec.
     Step 6: Verify that the spec OpenAPI 3.0 compatible and adjust as needed.
     Step 7: Provide a downloadable link to the user when done.
