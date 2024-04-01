@@ -98,7 +98,7 @@ Debugging a no-code solution can be frusturating. Here are some tips I uncovered
 
 ### Interested in learning more?
 Check out this recording of a workshop I hosted on Custom GPTs: <br />
-TBD
+https://www.youtube.com/watch?v=ndwu3CLqV-s
 
 Check out these slides from said workshop: <br />
 https://docs.google.com/presentation/d/1TVqCDd8YQxQAxosvT6-ZCX4ERidTAAklQGRiBGnnCto/edit#slide=id.g2c731a7967e_0_0
