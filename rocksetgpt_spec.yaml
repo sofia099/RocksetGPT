@@ -3,7 +3,7 @@ info:
   title: REST API
   version: v1
 servers:
-- url: https://api.YOUR_REGION.rockset.com/v1
+- url: https://api.usw2a1.rockset.com/v1
 paths:
   /orgs/self/queries:
     post:
